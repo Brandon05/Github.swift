@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Khoa Pham" => "onmyway133@gmail.com" }
   s.source           = {
-    :git => "https://github.com/onmyway133/Github.swift.git",
+    :git => "https://github.com/Brandon05/Github.swift",
     :tag => s.version.to_s
   }
   s.social_media_url = 'https://twitter.com/onmyway133'
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'Tailor'
   s.dependency 'RxSwift', '~> 2.4'
-  s.dependency 'Alamofire', '~> 3.3'
+  s.dependency 'Alamofire', '~> 4.0'
   s.dependency 'ISO8601', '~> 0.5'
   s.dependency 'Construction'
 
