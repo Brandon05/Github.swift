@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
-  s.name             = "GithubSwiftAPI"
+  s.name             = "GithubSwift"
   s.summary          = "Unofficial Github API client in Swift"
   s.version          = "0.5.0"
   s.homepage         = "https://github.com/onmyway133/Github.swift"
   s.license          = 'MIT'
   s.author           = { "Khoa Pham" => "onmyway133@gmail.com" }
   s.source           = {
-    :git => "https://github.com/Brandon05/Github.swift",
+    :git => "https://github.com/onmyway133/Github.swift.git",
     :tag => s.version.to_s
   }
   s.social_media_url = 'https://twitter.com/onmyway133'
