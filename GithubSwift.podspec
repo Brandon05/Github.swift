@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   # s.osx.frameworks = 'Cocoa', 'Foundation'
 
   s.dependency 'Tailor'
-  s.dependency 'RxSwift', '~> 2.4'
+  s.dependency 'RxSwift', '~> 3.0'
   s.dependency 'Alamofire', '~> 4.0.1'
   s.dependency 'ISO8601', '~> 0.5'
   s.dependency 'Construction'
